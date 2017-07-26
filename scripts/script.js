@@ -42,11 +42,11 @@ var people = [
 // //Example of BY REFERENCE. As long as you change the property of an object, it'll affect all reference in the object
 // // 
 
-// console.log(people);
+console.log(people);
 
 //{person}'s favorite animal is the {favoriteAnimal}
 //log for Canin's favorite animal is the Uniflitten
 
-// for (var i = 0; i < people.length; i++){
-//     console.log(person[0] + '\'s favorite animal is the ' + person[1]);
-// }
+for (var i = 0; i < people.length; i++){
+    console.log( people[i].name + '\'s favorite animal is the ' + people[i].favoriteAnimal );
+}
