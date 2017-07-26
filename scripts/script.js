@@ -24,25 +24,25 @@ var people = [
 ];
 //
 
-console.log('Canin the variable before potato salad', canin);
-console.log('Canin in the array before potato salad', people[0]);
+// console.log('Canin the variable before potato salad', canin);
+// console.log('Canin in the array before potato salad', people[0]);
 
-people[0].favoriteAnimal = 'potato salad';
-caninTwin = {
-    name: canin.name,
-    favoriteAnimal: canin.favoriteAnimal
-}
+// people[0].favoriteAnimal = 'potato salad';
+// caninTwin = {
+//     name: canin.name,
+//     favoriteAnimal: canin.favoriteAnimal
+// }
 
-caninTwin.favoriteAnimal = 'dolphin';
+// caninTwin.favoriteAnimal = 'dolphin';
 
-console.log('Canin the variable after potato salad', canin);
-console.log('Canin in the array after potato salad', people[0]);
-console.log('Canin\'s Twin\'s', caninTwin);
+// console.log('Canin the variable after potato salad', canin);
+// console.log('Canin in the array after potato salad', people[0]);
+// console.log('Canin\'s Twin\'s', caninTwin);
 
-//Example of BY REFERENCE. As long as you change the property of an object, it'll affect all reference in the object
-// 
+// //Example of BY REFERENCE. As long as you change the property of an object, it'll affect all reference in the object
+// // 
 
-console.log(people);
+// console.log(people);
 
 //{person}'s favorite animal is the {favoriteAnimal}
 //log for Canin's favorite animal is the Uniflitten
