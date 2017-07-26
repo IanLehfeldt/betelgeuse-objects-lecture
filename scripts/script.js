@@ -48,5 +48,6 @@ console.log(people);
 //log for Canin's favorite animal is the Uniflitten
 
 for (var i = 0; i < people.length; i++){
-    console.log( people[i].name + '\'s favorite animal is the ' + people[i].favoriteAnimal );
+    var person = people[i];
+    console.log( person.name + '\'s favorite animal is the ' + person.favoriteAnimal );
 }
